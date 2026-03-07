@@ -1,0 +1,79 @@
+[
+  {
+    "ts": "2026-03-07T21:48:45.424941+00:00",
+    "type": "OrderCreated",
+    "data": {
+      "8": "FIX.4.2",
+      "35": "D",
+      "55": "AAPL",
+      "54": "1",
+      "38": "500",
+      "40": "2",
+      "44": "190.0",
+      "10": "128"
+    }
+  },
+  {
+    "ts": "2026-03-07T21:48:45.425176+00:00",
+    "type": "StateChange",
+    "data": {
+      "symbol": "AAPL",
+      "state": "ACKED"
+    }
+  },
+  {
+    "ts": "2026-03-07T21:48:45.425247+00:00",
+    "type": "StateChange",
+    "data": {
+      "symbol": "AAPL",
+      "state": "FILLED"
+    }
+  },
+  {
+    "ts": "2026-03-07T21:48:45.425273+00:00",
+    "type": "OrderFilled",
+    "data": {
+      "symbol": "AAPL",
+      "qty": 500,
+      "pos": 500
+    }
+  },
+  {
+    "ts": "2026-03-07T21:48:45.425305+00:00",
+    "type": "OrderCreated",
+    "data": {
+      "8": "FIX.4.2",
+      "35": "D",
+      "55": "AAPL",
+      "54": "1",
+      "38": "5000",
+      "40": "2",
+      "44": "190.0",
+      "10": "128"
+    }
+  },
+  {
+    "ts": "2026-03-07T21:48:45.425398+00:00",
+    "type": "StateChange",
+    "data": {
+      "symbol": "AAPL",
+      "state": "REJECTED"
+    }
+  },
+  {
+    "ts": "2026-03-07T21:48:45.425469+00:00",
+    "type": "OrderRejected",
+    "data": {
+      "reason": "Order size too large: 5000 > 1000",
+      "symbol": "AAPL"
+    }
+  },
+  {
+    "ts": "2026-03-07T21:48:45.425532+00:00",
+    "type": "Ignored",
+    "data": {
+      "reason": "not an order",
+      "raw": "8=FIX.4.2|35=S|55=AAPL|10=999"
+    }
+  }
+]
