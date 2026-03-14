@@ -1,0 +1,20 @@
+{
+  "PredReturn->Opt (ExecSim)": {
+    "AnnRet": 0.23827302116021487,
+    "AnnVol": 0.049698214396728065,
+    "Sharpe": 4.32696603218569,
+    "MaxDD": -0.006868693627681388,
+    "Calmar": 34.689714528140506,
+    "AvgTurnover": 0.18176378970249635,
+    "WinLossRatio": 1.625
+  },
+  "EqualWeight Hold": {
+    "AnnRet": 0.5556222624391673,
+    "AnnVol": 0.12381662221529195,
+    "Sharpe": 3.6338109804735046,
+    "MaxDD": -0.012182997353375025,
+    "Calmar": 45.606368143849124,
+    "AvgTurnover": 0.0,
+    "WinLossRatio": 2.0
+  }
+}

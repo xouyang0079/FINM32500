@@ -1,0 +1,4 @@
+alpaca_order_id,alpaca_status,client_order_id,qty,side,signal_date,symbol,trade_date
+83e016d4-6463-4dde-9f14-f907a556a2d2,pending_new,ml-ret-opt-2026-03-13-SPY-sell,58.927758,sell,2026-03-12,SPY,2026-03-13
+820a99e0-1781-4789-9593-78842c0bbbbf,pending_new,ml-ret-opt-2026-03-13-UUP-sell,141.118206,sell,2026-03-12,UUP,2026-03-13
+4d07752d-f381-43e2-9536-c9eefa3e0d93,pending_new,ml-ret-opt-2026-03-13-TLT-buy,446.130992,buy,2026-03-12,TLT,2026-03-13

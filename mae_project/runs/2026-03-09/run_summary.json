@@ -1,0 +1,47 @@
+{
+  "strategy_id": "ml_ret_opt",
+  "trade_date": "2026-03-09",
+  "signal_date": "2026-03-06",
+  "pack_path": "ONLINE_RUNTIME_NO_LOCAL_PACK",
+  "data_source": "online_runtime_download",
+  "ckpt": "../model/downstream_return_full.pth",
+  "target_weights": [
+    1.904617059569022e-14,
+    9.211722971678155e-15,
+    0.22940051100629483,
+    0.7705994889936413,
+    3.5675715511069704e-14
+  ],
+  "mu_hat": [
+    -0.033412590622901917,
+    -0.0006631240248680115,
+    0.003444470465183258,
+    0.008624643087387085,
+    -0.005764439702033997
+  ],
+  "etf_symbols": [
+    "GLD",
+    "SPY",
+    "TLT",
+    "UUP",
+    "XLE"
+  ],
+  "live_prices": {
+    "GLD": 467.55,
+    "SPY": 664.88,
+    "TLT": 88.46,
+    "UUP": 27.56,
+    "XLE": 56.745
+  },
+  "account_before": {
+    "equity": 100000.0,
+    "cash": 100000.0,
+    "buying_power": 200000.0
+  },
+  "n_candidate_orders": 2,
+  "n_accepted_orders": 2,
+  "n_rejected_orders": 0,
+  "n_submitted_rows": 2,
+  "n_existing_skipped": 0,
+  "dry_run": false
+}

@@ -1,0 +1,58 @@
+{
+  "split": "test",
+  "years": [
+    2026
+  ],
+  "start_date": "2026-01-02",
+  "end_date": "2026-03-03",
+  "freq": "SPY trading calendar",
+  "master_ticker": "SPY",
+  "etfs": [
+    "GLD",
+    "SPY",
+    "TLT",
+    "UUP",
+    "XLE"
+  ],
+  "macro_keys": [
+    "cpi",
+    "dgs1",
+    "dgs2",
+    "dgs5",
+    "dgs10",
+    "dgs30",
+    "dxy",
+    "fedfunds",
+    "gdp",
+    "hyspread",
+    "unrate"
+  ],
+  "vix_included": true,
+  "feature_names": [
+    "GLD_ret",
+    "GLD_vol",
+    "SPY_ret",
+    "SPY_vol",
+    "TLT_ret",
+    "TLT_vol",
+    "UUP_ret",
+    "UUP_vol",
+    "XLE_ret",
+    "XLE_vol",
+    "cpi",
+    "dgs1",
+    "dgs2",
+    "dgs5",
+    "dgs10",
+    "dgs30",
+    "dxy",
+    "fedfunds",
+    "gdp",
+    "hyspread",
+    "unrate",
+    "vix"
+  ],
+  "feature_dim": 22,
+  "return_def": "raw log return from Adj Close (or Close fallback); rows with missing ETF data are dropped",
+  "note": "Input CSVs are pre-cleaned. No global normalization. Use window normalization in Dataset if needed."
+}

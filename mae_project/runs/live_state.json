@@ -1,0 +1,443 @@
+{
+  "runs": {
+    "ml_ret_opt::2026-03-09": {
+      "strategy_id": "ml_ret_opt",
+      "trade_date": "2026-03-09",
+      "signal_date": "2026-03-06",
+      "status": "DONE",
+      "created_at_utc": "2026-03-09T14:34:11+00:00",
+      "updated_at_utc": "2026-03-09T14:35:39+00:00",
+      "payload": {
+        "data_source": "online_runtime_download",
+        "pack_path": "ONLINE_RUNTIME_NO_LOCAL_PACK",
+        "pack_signal_date": "2026-03-06",
+        "pack_last_date": "2026-03-06",
+        "feature_dim": 22,
+        "etf_symbols": [
+          "GLD",
+          "SPY",
+          "TLT",
+          "UUP",
+          "XLE"
+        ],
+        "n_rows_online": 172,
+        "mu_hat": [
+          -0.033412590622901917,
+          -0.0006631240248680115,
+          0.003444470465183258,
+          0.008624643087387085,
+          -0.005764439702033997
+        ],
+        "target_weights": [
+          1.904617059569022e-14,
+          9.211722971678155e-15,
+          0.22940051100629483,
+          0.7705994889936413,
+          3.5675715511069704e-14
+        ],
+        "accepted_orders": [
+          {
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 259.326826
+          },
+          {
+            "symbol": "UUP",
+            "side": "buy",
+            "qty": 2796.0794229999997
+          }
+        ],
+        "rejected_orders": [],
+        "submitted_orders": [
+          {
+            "trade_date": "2026-03-09",
+            "signal_date": "2026-03-06",
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 259.326826,
+            "client_order_id": "ml-ret-opt-2026-03-09-TLT-buy",
+            "alpaca_order_id": "54ba13fe-12b2-4b00-8db6-8568c7b9c28e",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-09",
+            "signal_date": "2026-03-06",
+            "symbol": "UUP",
+            "side": "buy",
+            "qty": 2796.0794229999997,
+            "client_order_id": "ml-ret-opt-2026-03-09-UUP-buy",
+            "alpaca_order_id": "da986bdc-049d-4eeb-be95-a24087130598",
+            "alpaca_status": "pending_new"
+          }
+        ],
+        "existing_skipped_orders": [],
+        "account_before": {
+          "equity": 100000.0,
+          "cash": 100000.0,
+          "buying_power": 200000.0
+        },
+        "live_prices": {
+          "GLD": 467.55,
+          "SPY": 664.88,
+          "TLT": 88.46,
+          "UUP": 27.56,
+          "XLE": 56.745
+        },
+        "dry_run": false,
+        "done_reason": "daily_run_complete"
+      }
+    },
+    "ml_ret_opt::2026-03-10": {
+      "strategy_id": "ml_ret_opt",
+      "trade_date": "2026-03-10",
+      "signal_date": "2026-03-09",
+      "status": "DONE",
+      "created_at_utc": "2026-03-10T14:05:51+00:00",
+      "updated_at_utc": "2026-03-10T14:06:00+00:00",
+      "payload": {
+        "data_source": "online_runtime_download",
+        "pack_path": "ONLINE_RUNTIME_NO_LOCAL_PACK",
+        "pack_signal_date": "2026-03-09",
+        "pack_last_date": "2026-03-09",
+        "feature_dim": 22,
+        "etf_symbols": [
+          "GLD",
+          "SPY",
+          "TLT",
+          "UUP",
+          "XLE"
+        ],
+        "n_rows_online": 171,
+        "mu_hat": [
+          -0.027914930135011673,
+          0.020194675773382187,
+          0.006552211940288544,
+          0.002439066767692566,
+          0.02460644021630287
+        ],
+        "target_weights": [
+          0.0,
+          0.3939636649497822,
+          0.2354953837012082,
+          0.23221902208198394,
+          0.13832192926702563
+        ],
+        "accepted_orders": [
+          {
+            "symbol": "UUP",
+            "side": "sell",
+            "qty": 1951.903496
+          },
+          {
+            "symbol": "SPY",
+            "side": "buy",
+            "qty": 57.991882999999994
+          },
+          {
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 4.903900999999999
+          }
+        ],
+        "rejected_orders": [
+          {
+            "trade_date": "2026-03-10",
+            "signal_date": "2026-03-09",
+            "symbol": "XLE",
+            "side": "buy",
+            "qty": 246.405287,
+            "reason": "insufficient_cash"
+          }
+        ],
+        "submitted_orders": [
+          {
+            "trade_date": "2026-03-10",
+            "signal_date": "2026-03-09",
+            "symbol": "UUP",
+            "side": "sell",
+            "qty": 1951.903496,
+            "client_order_id": "ml-ret-opt-2026-03-10-UUP-sell",
+            "alpaca_order_id": "cc8da121-2d76-49d2-95d6-cda1cd0dec0c",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-10",
+            "signal_date": "2026-03-09",
+            "symbol": "SPY",
+            "side": "buy",
+            "qty": 57.991882999999994,
+            "client_order_id": "ml-ret-opt-2026-03-10-SPY-buy",
+            "alpaca_order_id": "6a6292d7-4af5-4824-aea3-dc87777eeeb9",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-10",
+            "signal_date": "2026-03-09",
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 4.903900999999999,
+            "client_order_id": "ml-ret-opt-2026-03-10-TLT-buy",
+            "alpaca_order_id": "6e40d807-a05b-4b81-aa63-b447f00ac08b",
+            "alpaca_status": "pending_new"
+          }
+        ],
+        "existing_skipped_orders": [],
+        "account_before": {
+          "equity": 99624.23,
+          "cash": -27.96,
+          "buying_power": 99596.27
+        },
+        "live_prices": {
+          "GLD": 477.95,
+          "SPY": 676.79,
+          "TLT": 88.79,
+          "UUP": 27.405,
+          "XLE": 55.925
+        },
+        "dry_run": false,
+        "done_reason": "daily_run_complete"
+      }
+    },
+    "ml_ret_opt::2026-03-11": {
+      "strategy_id": "ml_ret_opt",
+      "trade_date": "2026-03-11",
+      "signal_date": "2026-03-10",
+      "status": "DONE",
+      "created_at_utc": "2026-03-11T14:58:07+00:00",
+      "updated_at_utc": "2026-03-11T14:58:21+00:00",
+      "payload": {
+        "data_source": "online_runtime_download",
+        "pack_path": "ONLINE_RUNTIME_NO_LOCAL_PACK",
+        "pack_signal_date": "2026-03-10",
+        "pack_last_date": "2026-03-10",
+        "feature_dim": 22,
+        "etf_symbols": [
+          "GLD",
+          "SPY",
+          "TLT",
+          "UUP",
+          "XLE"
+        ],
+        "n_rows_online": 171,
+        "mu_hat": [
+          -0.006897948682308197,
+          0.02202422544360161,
+          0.017017271369695663,
+          -0.0007612407207489014,
+          0.008543029427528381
+        ],
+        "target_weights": [
+          6.010246791086135e-15,
+          0.40183364137487926,
+          0.5143670928636822,
+          0.039059632038332404,
+          0.04473963372310024
+        ],
+        "accepted_orders": [
+          {
+            "symbol": "UUP",
+            "side": "sell",
+            "qty": 703.05772
+          },
+          {
+            "symbol": "SPY",
+            "side": "buy",
+            "qty": 0.9358759999999999
+          },
+          {
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 320.247657
+          },
+          {
+            "symbol": "XLE",
+            "side": "buy",
+            "qty": 78.56427699999999
+          }
+        ],
+        "rejected_orders": [],
+        "submitted_orders": [
+          {
+            "trade_date": "2026-03-11",
+            "signal_date": "2026-03-10",
+            "symbol": "UUP",
+            "side": "sell",
+            "qty": 703.05772,
+            "client_order_id": "ml-ret-opt-2026-03-11-UUP-sell",
+            "alpaca_order_id": "3289c758-0f9d-48fb-b6a3-4659797c399d",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-11",
+            "signal_date": "2026-03-10",
+            "symbol": "SPY",
+            "side": "buy",
+            "qty": 0.9358759999999999,
+            "client_order_id": "ml-ret-opt-2026-03-11-SPY-buy",
+            "alpaca_order_id": "82e544a3-f9db-450b-91e9-d294aa29e6ab",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-11",
+            "signal_date": "2026-03-10",
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 320.247657,
+            "client_order_id": "ml-ret-opt-2026-03-11-TLT-buy",
+            "alpaca_order_id": "6af35041-e07f-4fe4-80a3-64abf015110d",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-11",
+            "signal_date": "2026-03-10",
+            "symbol": "XLE",
+            "side": "buy",
+            "qty": 78.56427699999999,
+            "client_order_id": "ml-ret-opt-2026-03-11-XLE-buy",
+            "alpaca_order_id": "74475ac8-645e-493b-a744-47dcb05620bb",
+            "alpaca_status": "pending_new"
+          }
+        ],
+        "existing_skipped_orders": [],
+        "account_before": {
+          "equity": 99426.77,
+          "cash": 13758.68,
+          "buying_power": 113185.45
+        },
+        "live_prices": {
+          "GLD": 476.79,
+          "SPY": 678.0,
+          "TLT": 87.5,
+          "UUP": 27.52,
+          "XLE": 56.6201
+        },
+        "dry_run": false,
+        "done_reason": "daily_run_complete"
+      }
+    },
+    "ml_ret_opt::2026-03-12": {
+      "strategy_id": "ml_ret_opt",
+      "trade_date": "2026-03-12",
+      "signal_date": "2026-03-11",
+      "status": "FAILED",
+      "created_at_utc": "2026-03-12T17:58:08+00:00",
+      "updated_at_utc": "2026-03-12T20:03:13+00:00",
+      "payload": {
+        "error_stage": "DATA_LOCK",
+        "error": "FRED download failed after 4 attempts for DGS1: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)",
+        "restarted": true
+      }
+    },
+    "ml_ret_opt::2026-03-13": {
+      "strategy_id": "ml_ret_opt",
+      "trade_date": "2026-03-13",
+      "signal_date": "2026-03-12",
+      "status": "DONE",
+      "created_at_utc": "2026-03-13T14:30:18+00:00",
+      "updated_at_utc": "2026-03-13T14:30:41+00:00",
+      "payload": {
+        "data_source": "online_runtime_download",
+        "pack_path": "ONLINE_RUNTIME_NO_LOCAL_PACK",
+        "pack_signal_date": "2026-03-12",
+        "pack_last_date": "2026-03-12",
+        "feature_dim": 22,
+        "etf_symbols": [
+          "GLD",
+          "SPY",
+          "TLT",
+          "UUP",
+          "XLE"
+        ],
+        "n_rows_online": 172,
+        "mu_hat": [
+          -0.009557604789733887,
+          -0.00248003751039505,
+          0.010998718440532684,
+          -0.001190435141324997,
+          0.0022905319929122925
+        ],
+        "target_weights": [
+          0.0,
+          4.040008345224107e-17,
+          0.90846614006562,
+          2.248770831006495e-16,
+          0.09153385993437982
+        ],
+        "accepted_orders": [
+          {
+            "symbol": "SPY",
+            "side": "sell",
+            "qty": 58.927758
+          },
+          {
+            "symbol": "UUP",
+            "side": "sell",
+            "qty": 141.118206
+          },
+          {
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 446.130992
+          }
+        ],
+        "rejected_orders": [
+          {
+            "trade_date": "2026-03-13",
+            "signal_date": "2026-03-12",
+            "symbol": "XLE",
+            "side": "buy",
+            "qty": 78.397283,
+            "reason": "insufficient_cash"
+          }
+        ],
+        "submitted_orders": [
+          {
+            "trade_date": "2026-03-13",
+            "signal_date": "2026-03-12",
+            "symbol": "SPY",
+            "side": "sell",
+            "qty": 58.927758,
+            "client_order_id": "ml-ret-opt-2026-03-13-SPY-sell",
+            "alpaca_order_id": "83e016d4-6463-4dde-9f14-f907a556a2d2",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-13",
+            "signal_date": "2026-03-12",
+            "symbol": "UUP",
+            "side": "sell",
+            "qty": 141.118206,
+            "client_order_id": "ml-ret-opt-2026-03-13-UUP-sell",
+            "alpaca_order_id": "820a99e0-1781-4789-9593-78842c0bbbbf",
+            "alpaca_status": "pending_new"
+          },
+          {
+            "trade_date": "2026-03-13",
+            "signal_date": "2026-03-12",
+            "symbol": "TLT",
+            "side": "buy",
+            "qty": 446.130992,
+            "client_order_id": "ml-ret-opt-2026-03-13-TLT-buy",
+            "alpaca_order_id": "4d07752d-f381-43e2-9536-c9eefa3e0d93",
+            "alpaca_status": "pending_new"
+          }
+        ],
+        "existing_skipped_orders": [],
+        "account_before": {
+          "equity": 98754.89,
+          "cash": -5.61,
+          "buying_power": 98749.28
+        },
+        "live_prices": {
+          "GLD": 467.23,
+          "SPY": 669.22,
+          "TLT": 87.0509,
+          "UUP": 27.78,
+          "XLE": 57.59
+        },
+        "dry_run": false,
+        "done_reason": "daily_run_complete"
+      }
+    }
+  }
+}

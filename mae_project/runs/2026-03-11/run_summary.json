@@ -1,0 +1,47 @@
+{
+  "strategy_id": "ml_ret_opt",
+  "trade_date": "2026-03-11",
+  "signal_date": "2026-03-10",
+  "pack_path": "ONLINE_RUNTIME_NO_LOCAL_PACK",
+  "data_source": "online_runtime_download",
+  "ckpt": "c:\\Users\\xouya\\Desktop\\uchicago\\FINM32500\\project\\mae_project\\model\\downstream_return_full.pth",
+  "target_weights": [
+    6.010246791086135e-15,
+    0.40183364137487926,
+    0.5143670928636822,
+    0.039059632038332404,
+    0.04473963372310024
+  ],
+  "mu_hat": [
+    -0.006897948682308197,
+    0.02202422544360161,
+    0.017017271369695663,
+    -0.0007612407207489014,
+    0.008543029427528381
+  ],
+  "etf_symbols": [
+    "GLD",
+    "SPY",
+    "TLT",
+    "UUP",
+    "XLE"
+  ],
+  "live_prices": {
+    "GLD": 476.79,
+    "SPY": 678.0,
+    "TLT": 87.5,
+    "UUP": 27.52,
+    "XLE": 56.6201
+  },
+  "account_before": {
+    "equity": 99426.77,
+    "cash": 13758.68,
+    "buying_power": 113185.45
+  },
+  "n_candidate_orders": 4,
+  "n_accepted_orders": 4,
+  "n_rejected_orders": 0,
+  "n_submitted_rows": 4,
+  "n_existing_skipped": 0,
+  "dry_run": false
+}
